@@ -14,7 +14,7 @@ html{
   width: 100%;
   font-family: 'Pacifico', cursive;
   /* font-size: 100px; */
-  font-size: 4vw; /* Ajdust size for resposiveness */
+  font-size: clamp(2rem, 5vw, 6rem);/* Ajdust size for resposiveness */
   font-weight: 700;
   color: #f48fb1;
   text-align: center;
@@ -328,7 +328,7 @@ a.author{
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .feliz {
     font-size: 8vw;
   }
@@ -358,6 +358,93 @@ a.author{
   .balao {
     width: 20vw;
     height: 20vw;
+  }
+
+  a.author {
+    font-size: 5vw;
+  }
+} */
+/* General responsiveness for text, animations, and layout */
+@media (max-width: 1024px) {
+  .feliz {
+    font-size: 6vw; /* Adjust headline size */
+  }
+
+  .ano_novo > span {
+    font-size: 10vw; /* Scale year numbers */
+  }
+
+  .balao {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  a.author {
+    font-size: 2vw; /* Author link scaling */
+  }
+}
+
+@media (max-width: 768px) {
+  .feliz {
+    font-size: 8vw;
+  }
+
+  .ano_novo > span {
+    font-size: 14vw;
+  }
+
+  .balao {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .fogos > div span {
+    width: 4px;
+    height: 4px;
+  }
+
+  a.author {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .feliz {
+    font-size: 10vw;
+  }
+
+  .ano_novo > span {
+    font-size: 18vw;
+  }
+
+  .balao {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .fogos > div span {
+    width: 3px;
+    height: 3px;
+  }
+
+  a.author {
+    font-size: 4vw;
+  }
+}
+
+/* Additional styles for very small screens */
+@media (max-width: 320px) {
+  .feliz {
+    font-size: 12vw;
+  }
+
+  .ano_novo > span {
+    font-size: 20vw;
+  }
+
+  .balao {
+    width: 15vw;
+    height: 15vw;
   }
 
   a.author {
