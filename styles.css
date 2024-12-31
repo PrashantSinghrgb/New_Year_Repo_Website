@@ -48,7 +48,7 @@ span.seis{
   position: absolute;
   top: 50%;
   right: 50%;
-  margin-right: -220px;
+  margin-right: -200px;
   animation: vai_2016 5s ease-in-out 5s forwards;
 }
 span.seis, span.sete {
