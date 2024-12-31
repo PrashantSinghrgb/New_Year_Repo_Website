@@ -48,7 +48,7 @@ span.seis{
   position: absolute;
   top: 50%;
   right: 50%;
-  margin-right: -200px;
+  margin-right: -220px;
   animation: vai_2016 5s ease-in-out 5s forwards;
 }
 span.seis, span.sete {
@@ -58,7 +58,7 @@ span.sete{
   position: absolute;
   right: 0%;
   margin-right: -220px;
-  animation: vem_2017 6s ease-in-out forwards;
+  animation: vem_2017 10s ease-in-out forwards;
 }
 span.sete:before{
   content: '';
@@ -378,7 +378,19 @@ a.author{
     width: 8vw;
     height: 8vw;
   }
-
+  span.seis{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -220px;
+    animation: vai_2016 5s ease-in-out 5s forwards;
+  }
+  span.sete{
+    position: absolute;
+    right: 0%;
+    margin-right: -220px;
+    animation: vem_2017 6s ease-in-out forwards;
+  }
   a.author {
     font-size: 2vw; /* Author link scaling */
   }
@@ -402,7 +414,19 @@ a.author{
     width: 4px;
     height: 4px;
   }
-
+  span.seis{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -200px;
+    animation: vai_2016 5s ease-in-out 5s forwards;
+  }
+  span.sete{
+    position: absolute;
+    right: 0%;
+    margin-right: -200px;
+    animation: vem_2017 6s ease-in-out forwards;
+  }
   a.author {
     font-size: 3vw;
   }
@@ -426,7 +450,19 @@ a.author{
     width: 3px;
     height: 3px;
   }
-
+  span.seis{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -115px;
+    animation: vai_2016 5s ease-in-out 5s forwards;
+  }
+  span.sete{
+    position: absolute;
+    right: 0%;
+    margin-right: -115px;
+    animation: vem_2017 6s ease-in-out forwards;
+  }
   a.author {
     font-size: 4vw;
   }
@@ -446,7 +482,19 @@ a.author{
     width: 15vw;
     height: 15vw;
   }
-
+  span.seis{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -100px;
+    animation: vai_2016 5s ease-in-out 5s forwards;
+  }
+  span.sete{
+    position: absolute;
+    right: 0%;
+    margin-right: -100px;
+    animation: vem_2017 6s ease-in-out forwards;
+  }
   a.author {
     font-size: 5vw;
   }
