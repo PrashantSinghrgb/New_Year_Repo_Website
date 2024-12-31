@@ -326,44 +326,6 @@ a.author{
     opacity: 1;
   }
 }
-
-/* Media Queries */
-/* @media (max-width: 768px) {
-  .feliz {
-    font-size: 8vw;
-  }
-
-  .ano_novo > span {
-    font-size: 20vw;
-  }
-
-  .balao {
-    width: 15vw;
-    height: 15vw;
-  }
-
-  a.author {
-    font-size: 4vw;
-  }
-}
-@media (max-width: 480px) {
-  .feliz {
-    font-size: 10vw;
-  }
-
-  .ano_novo > span {
-    font-size: 25vw;
-  }
-
-  .balao {
-    width: 20vw;
-    height: 20vw;
-  }
-
-  a.author {
-    font-size: 5vw;
-  }
-} */
 /* General responsiveness for text, animations, and layout */
 @media (max-width: 1024px) {
   .feliz {
@@ -418,13 +380,13 @@ a.author{
     position: absolute;
     top: 50%;
     right: 50%;
-    margin-right: -200px;
+    margin-right: -150px;
     animation: vai_2016 5s ease-in-out 5s forwards;
   }
   span.sete{
     position: absolute;
     right: 0%;
-    margin-right: -200px;
+    margin-right: -150px;
     animation: vem_2017 6s ease-in-out forwards;
   }
   a.author {
