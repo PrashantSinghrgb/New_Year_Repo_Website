@@ -380,13 +380,13 @@ a.author{
     position: absolute;
     top: 50%;
     right: 50%;
-    margin-right: -115px;
+    margin-right: -100px;
     animation: vai_2016 5s ease-in-out 5s forwards;
   }
   span.sete{
     position: absolute;
     right: 0%;
-    margin-right: -115px;
+    margin-right: -100px;
     animation: vem_2017 6s ease-in-out forwards;
   }
   a.author {
@@ -416,13 +416,13 @@ a.author{
     position: absolute;
     top: 50%;
     right: 50%;
-    margin-right: -115px;
+    margin-right: -90px;
     animation: vai_2016 5s ease-in-out 5s forwards;
   }
   span.sete{
     position: absolute;
     right: 0%;
-    margin-right: -115px;
+    margin-right: -90px;
     animation: vem_2017 6s ease-in-out forwards;
   }
   a.author {
@@ -448,13 +448,13 @@ a.author{
     position: absolute;
     top: 50%;
     right: 50%;
-    margin-right: -100px;
+    margin-right: -50px;
     animation: vai_2016 5s ease-in-out 5s forwards;
   }
   span.sete{
     position: absolute;
     right: 0%;
-    margin-right: -100px;
+    margin-right: -50px;
     animation: vem_2017 6s ease-in-out forwards;
   }
   a.author {
